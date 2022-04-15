@@ -57,6 +57,7 @@ footer {
 }
 
 .container {
+  padding: 10px;
   background-color: white;
   width: 500px;
   height: 400px;
@@ -78,7 +79,20 @@ footer {
 }
 
 .downloads {
-  width: 400px;
+  width: 350px;
   position: absolute;
-  top: -200;
+  top: 1;
+  left: 100px;
+  
+}
+
+.footer {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: -15px;
+} 
+
+.footer li {
+  padding-left: 10px;
 }
